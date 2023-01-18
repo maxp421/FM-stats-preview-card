@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: https://github.com/maxp421/FM-stats-preview-card
-- Live Site URL: https://your-live-site-url.com
+- Live Site URL: https://maxp421.github.io/FM-stats-preview-card/
 
 ## My process
 
