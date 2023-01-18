@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: https://github.com/maxp421/FM-stats-preview-card
+- Solution URL: https://www.frontendmentor.io/solutions/stats-preview-card-component-TSLTB8hELo
 - Live Site URL: https://maxp421.github.io/FM-stats-preview-card/
 
 ## My process
