@@ -14,10 +14,10 @@
 </head>
 
 <body>
-  <section class="section | bg-clr-primary-900">
-    <div class="container | bg-clr-primary-600">
-      <div class="wrapper-stats-preview-card">
-        <div class="card-text-area">
+  <main class="main | bg-clr-primary-900">
+    <div class="sp-card-container | bg-clr-primary-600">
+      <div class="sp-card-wrapper">
+        <div class="sp-card-text-area">
           <div class="flow">
             <h1 class="fs-primary-heading fw-bold clr-neutral-100">Get <span class="clr-accent-400">insights</span> that
               help your business grow.</h1>
@@ -25,30 +25,31 @@
               experience,
               and overall efficiency.</p>
           </div>
-          <div class="even-columns">
-            <div class="stats">
+          <div class="sp-card-even-columns">
+            <div class="sp-card-stats">
               <p class="fw-bold fs-600 clr-neutral-100">10k+</p>
               <p class="ff-secondary clr-neutral-300 fs-300 fw-regular">COMPANIES</p>
             </div>
-            <div class="stats">
+            <div class="sp-card-stats">
               <p class="fw-bold fs-600 clr-neutral-100">314</p>
               <p class="ff-secondary clr-neutral-300 fs-300 fw-regular">TEMPLATES</p>
             </div>
-            <div class="stats">
+            <div class="sp-card-stats">
               <p class="fw-bold fs-600 clr-neutral-100">12M+</p>
               <p class="ff-secondary clr-neutral-300 fs-300 fw-regular">QUERIES</p>
             </div>
           </div>
         </div>
 
-        <!-- GIVE DESCRIPTION TO IMAGE LIKE ALT TEXT (google) -->
+        <!-- If an image has to be provided as a css background image it should be included in a <span> tag with the role img
+          and an aria-label - http://www.davidmacd.com/blog/alternate-text-for-css-background-images.html -->
         <div>
-          <span class="bg-img-business" role="img"
+          <span class="sp-card-bg-img" role="img"
             aria-label="Three women in business clothing sitting at a table with their laptops."></span>
         </div>
       </div>
     </div>
-  </section>
+  </main>
 
 </body>
 

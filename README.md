@@ -53,7 +53,7 @@ I would like to learn more about accessibility, aria labels and proper practices
 ### Useful resources
 
 http://www.davidmacd.com/blog/alternate-text-for-css-background-images.html
-This blog post explains the proper way of writing alternate text for cases when an image is provided as a background of a div instead of a in an <img> tag.
+This blog post explains the proper way of writing alternate text for cases when an image is provided as a background of a div instead of a in an ```html <img> ```tag.
 
 ## Author
 - Github - https://github.com/maxp421

@@ -115,15 +115,14 @@ p:not([class]) {
   line-height: 1.7;
 }
 
-section {
+main {
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-/* PRIDAT MAX HEIGHT NA CONTAINER, pri nizkych width je to extremne vysoke */
-.container {
+.sp-card-container {
   --max-width: 375px;
   --horizontal-padding: 1rem;
   width: min(var(--max-width), 100% - (2 * var(--horizontal-padding)));
@@ -133,12 +132,12 @@ section {
 }
 
 @media(min-width: 900px) {
-  .container {
+  .sp-card-container {
     --max-width: 1080px;
   }
 }
 
-.wrapper-stats-preview-card {
+.sp-card-wrapper {
   display: grid;
   grid-auto-rows: 1fr 1.3fr;
   grid-template-areas:
@@ -148,7 +147,7 @@ section {
 
 @media (min-width: 900px) {
 
-  .wrapper-stats-preview-card {
+  .sp-card-wrapper {
     display: grid;
     grid-auto-flow: column;
     grid-auto-columns: 1fr;
@@ -157,7 +156,7 @@ section {
   }
 }
 
-.even-columns {
+.sp-card-even-columns {
   max-width: 380px;
   display: flex;
   flex-direction: column;
@@ -167,20 +166,20 @@ section {
 }
 
 @media (min-width: 900px) {
-  .even-columns {
+  .sp-card-even-columns {
     flex-direction: row;
     padding-top: 12%;
   }
 }
 
-.card-text-area {
+.sp-card-text-area {
   grid-area: text;
   text-align: center;
   padding: 0.5rem 1rem 2rem;
 }
 
 @media(min-width: 900px) {
-  .card-text-area {
+  .sp-card-text-area {
     text-align: start;
     padding-top: clamp(2rem, 5vw, 4.5rem);
     padding-inline: clamp(2rem, 5.3vw, 6rem);
@@ -188,15 +187,16 @@ section {
   }
 }
 
-.stats {
+.sp-card-stats {
   margin-top: 1rem;
 }
 
 
-.bg-img-business {
+.sp-card-bg-img {
   display: block;
   grid-area: image;
-  background-image: linear-gradient(hsla(277, 64%, 61%, 0.45), hsla(277, 64%, 61%, 0.45)), url("../images/image-header-desktop.jpg");
+  background-image: linear-gradient(hsla(277, 64%, 61%, 0.8), hsla(277, 64%, 61%, 0.8)), url("../images/image-header-desktop.jpg");
+  background-blend-mode: multiply;
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 0.5rem 0.5rem 0 0;
@@ -204,7 +204,7 @@ section {
 }
 
 @media (min-width: 900px) {
-  .bg-img-business {
+  .sp-card-bg-img {
     border-radius: 0 0.5rem 0.5rem 0;
   }
 }
